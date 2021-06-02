@@ -5,6 +5,7 @@ public class Suit {
     private String style;
     private String color;
     private String material;
+    public double cost;
 
     public Suit() {
     }
@@ -14,6 +15,7 @@ public class Suit {
         this.style = style;
         this.color = color;
         this.material = material;
+        this.cost = cost;
     }
 
 
