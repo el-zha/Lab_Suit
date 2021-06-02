@@ -1,10 +1,14 @@
 package Main;
 
+import org.json.simple.JSONObject;
 import Items.*;
 
 public class Main {
     public static void main(String[] args) {
 
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("firstname","Kolesnyk");
+        System.out>println(jsonObject.toJSONString());
 
         boolean isOrdered1 = false;
 
