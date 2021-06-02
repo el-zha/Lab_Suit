@@ -85,6 +85,7 @@ public class Main {
                     System.out.println("Костюм готов!");
                     if (person2.fittingForS(suitWithSkirt2)){
                         System.out.println("Костюм с юбкой подошел заказчику №" + Client.getCountClients());
+                        System.out.println({jh"Хорошего дня!");
                     };
             }
 
