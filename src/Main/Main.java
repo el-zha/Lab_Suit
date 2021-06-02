@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("firstname","Kolesnyk");
+        jsonObject.put("firstname","Olena");
         System.out>println(jsonObject.toJSONString());
 
         boolean isOrdered1 = false;
